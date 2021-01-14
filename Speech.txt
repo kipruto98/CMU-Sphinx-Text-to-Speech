@@ -1,0 +1,35 @@
+
+sudo apt-get install gcc automake autoconf libtool bison swig python-dev libpulse-dev 
+mkdir speech_recognition
+cd speech_regognition
+git clone https://github.com/cmusphinx/sphinxba...
+cd sphinxbase
+./autogen.sh
+./configure
+make 
+sudo make install
+
+export LD_LIBRARY_PATH=/usr/local/lib
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+sudo nano /etc/ld.so.conf
+include /etc/ld.so.conf.d/*.conf
+/usr/local/lib
+sudo ldconfig
+================================================
+git clone https://github.com/cmusphinx/pocketsp...
+cd pocketsphinx
+./autogen.sh
+./configure
+make clean all
+make check
+sudo make install
+===============================================
+git clone https://github.com/cmusphinx/sphinxtr...
+cd sphinxtrain
+./autogen.sh
+./configure
+make clean all
+make check
+sudo make install
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++

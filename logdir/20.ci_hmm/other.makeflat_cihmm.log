@@ -1,0 +1,24 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-example	no	no
+-help		no	no
+-mixwfn			/home/brian/Documents/other/model_parameters/other.ci_cont_flatinitial/mixture_weights
+-moddeffn		/home/brian/Documents/other/model_architecture/other.ci.mdef
+-ndensity	256	1
+-nstream	4	1
+-tmatfn			/home/brian/Documents/other/model_parameters/other.ci_cont_flatinitial/transition_matrices
+-topo			/home/brian/Documents/other/model_architecture/other.topology
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 21 total models defined (21 base, 0 tri)
+INFO: model_def_io.c(575): 84 total states
+INFO: model_def_io.c(576): 63 total tied states
+INFO: model_def_io.c(577): 63 total tied CI states
+INFO: model_def_io.c(578): 21 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3tmat_io.c(175): Wrote /home/brian/Documents/other/model_parameters/other.ci_cont_flatinitial/transition_matrices [21x3x4 array]
+INFO: s3mixw_io.c(232): Wrote /home/brian/Documents/other/model_parameters/other.ci_cont_flatinitial/mixture_weights [63x1x1 array]
+main.c(83): Reading model definition file /home/brian/Documents/other/model_architecture/other.ci.mdef
+main.c(90): 21 models defined
+Thu Jan  7 12:21:00 2021

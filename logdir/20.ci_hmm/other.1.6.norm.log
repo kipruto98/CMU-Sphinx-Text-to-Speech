@@ -1,0 +1,37 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/brian/Documents/other/bwaccumdir/other_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/brian/Documents/other/model_parameters/other.ci_cont/means
+-mixwfn			/home/brian/Documents/other/model_parameters/other.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/brian/Documents/other/model_parameters/other.ci_cont/transition_matrices
+-varfn			/home/brian/Documents/other/model_parameters/other.ci_cont/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/brian/Documents/other/bwaccumdir/other_buff_1
+INFO: s3mixw_io.c(116): Read /home/brian/Documents/other/bwaccumdir/other_buff_1/mixw_counts [63x1x1 array]
+INFO: s3tmat_io.c(117): Read /home/brian/Documents/other/bwaccumdir/other_buff_1/tmat_counts [21x3x4 array]
+INFO: s3gau_io.c(381): Read /home/brian/Documents/other/bwaccumdir/other_buff_1/gauden_counts with means with vars (2pass) [63x1x1 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(390): Normalizing mean for n_mgau= 63, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(232): Wrote /home/brian/Documents/other/model_parameters/other.ci_cont/mixture_weights [63x1x1 array]
+INFO: s3tmat_io.c(175): Wrote /home/brian/Documents/other/model_parameters/other.ci_cont/transition_matrices [21x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/brian/Documents/other/model_parameters/other.ci_cont/means [63x1x1 array]
+INFO: s3gau_io.c(228): Wrote /home/brian/Documents/other/model_parameters/other.ci_cont/variances [63x1x1 array]
+Thu Jan  7 12:21:02 2021
+Current Overall Likelihood Per Frame = -141.455872756933
+Convergence ratio = 0.0643556280589053
+Likelihoods have converged! Baum Welch training completed!
+******************************TRAINING COMPLETE*************************
+Thu Jan  7 12:21:02 2021

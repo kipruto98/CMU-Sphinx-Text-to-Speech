@@ -1,0 +1,43 @@
+CHOGE  (test-TEST/CHOGE)
+TAI    (test-CHOGE)
+Words: 1 Correct: 0 Errors: 1 Percent correct = 0.00% Error = 100.00% Accuracy = 0.00%
+Insertions: 0 Deletions: 0 Substitutions: 1
+koot  (test-TEST/KOOT)
+koot  (test-KOOT)
+Words: 1 Correct: 1 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+***  LAKWET  (test-TEST/LAKWET)
+KOOT KOOT    (test-LAKWET)
+Words: 1 Correct: 0 Errors: 2 Percent correct = 0.00% Error = 200.00% Accuracy = -100.00%
+Insertions: 1 Deletions: 0 Substitutions: 1
+MAMII  (test-TEST/MAMII)
+KOOT   (test-MAMII)
+Words: 1 Correct: 0 Errors: 1 Percent correct = 0.00% Error = 100.00% Accuracy = 0.00%
+Insertions: 0 Deletions: 0 Substitutions: 1
+moet  (test-TEST/MOET)
+moet  (test-MOET)
+Words: 1 Correct: 1 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+MUTYO  (test-TEST/MUTYO)
+KOOT   (test-MUTYO)
+Words: 1 Correct: 0 Errors: 1 Percent correct = 0.00% Error = 100.00% Accuracy = 0.00%
+Insertions: 0 Deletions: 0 Substitutions: 1
+SUGUL   (test-TEST/SUGUL)
+SUMEEK  (test-SUGUL)
+Words: 1 Correct: 0 Errors: 1 Percent correct = 0.00% Error = 100.00% Accuracy = 0.00%
+Insertions: 0 Deletions: 0 Substitutions: 1
+sumeek  (test-TEST/SUMEEK)
+sumeek  (test-SUMEEK)
+Words: 1 Correct: 1 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+TAI   (test-TEST/TAI)
+KOOT  (test-TAI)
+Words: 1 Correct: 0 Errors: 1 Percent correct = 0.00% Error = 100.00% Accuracy = 0.00%
+Insertions: 0 Deletions: 0 Substitutions: 1
+*** WERIT  (test-TEST/WERIT)
+TAI MAMII  (test-WERIT)
+Words: 1 Correct: 0 Errors: 2 Percent correct = 0.00% Error = 200.00% Accuracy = -100.00%
+Insertions: 1 Deletions: 0 Substitutions: 1
+TOTAL Words: 10 Correct: 3 Errors: 9
+TOTAL Percent correct = 30.00% Error = 90.00% Accuracy = 10.00%
+TOTAL Insertions: 2 Deletions: 0 Substitutions: 7

@@ -1,0 +1,11 @@
+pocketsphinx_continuous -inmic yes -hmm "/home/brian/speech/other/model_parameters/other.ci_cont" -lm "/home/brian/speech/other/etc/other.lm.DMP" -dict "/home/brian/speech/other/etc/other.dic"
+
+pocketsphinx_continuous -hmm "/home/brian/speech/other/model_parameters/other.ci_cont" -lm "/home/brian/speech/other/etc/other.lm.DMP" -dict "/home/brian/speech/other/etc/other.dic" -infile name.wav  > 1.txt
+
+/usr/share/srilm/bin/i686-m64/ngram-count -kndiscount -interpolate -text other.txt -lm other.lm
+
+/usr/share/srilm/bin/i686-m64/ngram -lm other.lm -prune 1e-8 -write-lm other.lm
+
+/usr/share/srilm/bin/i686-m64/ngram -lm other.lm -ppl other.txt
+
+ffmpeg -i file.m4a -ar 16000 -ac 1 file.wav

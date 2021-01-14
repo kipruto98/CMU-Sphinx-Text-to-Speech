@@ -1,0 +1,65 @@
+Language model created by QuickLM on Tue Jan  5 04:50:29 EST 2021
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=20
+ngram 3=10
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.7782 CHOGE -0.2218
+-1.7782 KOOT -0.2218
+-1.7782 LAKWET -0.2218
+-1.7782 MAMII -0.2218
+-1.7782 MOET -0.2218
+-1.7782 MUTYO -0.2218
+-1.7782 SUGUL -0.2218
+-1.7782 SUMEEK -0.2218
+-1.7782 TAI -0.2218
+-1.7782 WERIT -0.2218
+
+\2-grams:
+-1.3010 <s> CHOGE 0.0000
+-1.3010 <s> KOOT 0.0000
+-1.3010 <s> LAKWET 0.0000
+-1.3010 <s> MAMII 0.0000
+-1.3010 <s> MOET 0.0000
+-1.3010 <s> MUTYO 0.0000
+-1.3010 <s> SUGUL 0.0000
+-1.3010 <s> SUMEEK 0.0000
+-1.3010 <s> TAI 0.0000
+-1.3010 <s> WERIT 0.0000
+-0.3010 CHOGE </s> -0.3010
+-0.3010 KOOT </s> -0.3010
+-0.3010 LAKWET </s> -0.3010
+-0.3010 MAMII </s> -0.3010
+-0.3010 MOET </s> -0.3010
+-0.3010 MUTYO </s> -0.3010
+-0.3010 SUGUL </s> -0.3010
+-0.3010 SUMEEK </s> -0.3010
+-0.3010 TAI </s> -0.3010
+-0.3010 WERIT </s> -0.3010
+
+\3-grams:
+-0.3010 <s> CHOGE </s>
+-0.3010 <s> KOOT </s>
+-0.3010 <s> LAKWET </s>
+-0.3010 <s> MAMII </s>
+-0.3010 <s> MOET </s>
+-0.3010 <s> MUTYO </s>
+-0.3010 <s> SUGUL </s>
+-0.3010 <s> SUMEEK </s>
+-0.3010 <s> TAI </s>
+-0.3010 <s> WERIT </s>
+
+\end\

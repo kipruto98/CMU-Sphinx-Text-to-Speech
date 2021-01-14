@@ -1,0 +1,137 @@
+        INFO: main.c(229): Compiled on Jan  5 2021 at 11:05:41
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-2passvar	no		yes
+-abeam		1e-100		1.000000e-90
+-accumdir			/home/brian/Documents/other/bwaccumdir/other_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-bbeam		1e-100		1.000000e-10
+-cb2mllrfn	.1cls.		.1cls.
+-cepdir				/home/brian/Documents/other/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-ckptintv			0
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				/home/brian/Documents/other/etc/other_train.fileids
+-diagfull	no		no
+-dictfn				/home/brian/Documents/other/etc/other.dic
+-example	no		no
+-fdictfn			/home/brian/Documents/other/etc/other.filler
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-hmmdir				
+-latdir				
+-latext				
+-lda				
+-ldadim		0		0
+-lsnfn				/home/brian/Documents/other/etc/other_train.transcription
+-lw		11.5		1.150000e+01
+-maxuttlen	0		0
+-meanfn				/home/brian/Documents/other/model_parameters/other.ci_cont/means
+-meanreest	yes		yes
+-mixwfn				/home/brian/Documents/other/model_parameters/other.ci_cont/mixture_weights
+-mixwreest	yes		yes
+-mllrmat			
+-mmie		no		no
+-mmie_type	rand		rand
+-moddeffn			/home/brian/Documents/other/model_architecture/other.ci.mdef
+-mwfloor	0.00001		1.000000e-08
+-npart				1
+-nskip				0
+-outphsegdir			
+-outputfullpath	no		no
+-part				1
+-pdumpdir			
+-phsegdir			
+-phsegext	phseg		phseg
+-runlen		-1		-1
+-sentdir			
+-sentext	sent		sent
+-spthresh	0.0		0.000000e+00
+-svspec				
+-timing		yes		no
+-tmatfn				/home/brian/Documents/other/model_parameters/other.ci_cont/transition_matrices
+-tmatreest	yes		yes
+-topn		4		1
+-tpfloor	0.0001		1.000000e-04
+-ts2cbfn			.cont.
+-varfloor	0.00001		1.000000e-04
+-varfn				/home/brian/Documents/other/model_parameters/other.ci_cont/variances
+-varnorm	no		no
+-varreest	yes		yes
+-viterbi	no		no
+
+INFO: feat.c(713): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: main.c(318): Reading /home/brian/Documents/other/model_architecture/other.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 21 total models defined (21 base, 0 tri)
+INFO: model_def_io.c(575): 84 total states
+INFO: model_def_io.c(576): 63 total tied states
+INFO: model_def_io.c(577): 63 total tied CI states
+INFO: model_def_io.c(578): 21 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(116): Read /home/brian/Documents/other/model_parameters/other.ci_cont/mixture_weights [63x1x1 array]
+INFO: s3tmat_io.c(117): Read /home/brian/Documents/other/model_parameters/other.ci_cont/transition_matrices [21x3x4 array]
+INFO: mod_inv.c(300): inserting tprob floor 1.000000e-04 and renormalizing
+INFO: s3gau_io.c(168): Read /home/brian/Documents/other/model_parameters/other.ci_cont/means [63x1x1 array]
+INFO: s3gau_io.c(168): Read /home/brian/Documents/other/model_parameters/other.ci_cont/variances [63x1x1 array]
+INFO: gauden.c(176): 63 total mgau
+INFO: gauden.c(150): 1 feature streams (|0|=39 )
+INFO: gauden.c(187): 1 total densities
+INFO: gauden.c(90): min_var=1.000000e-04
+INFO: gauden.c(165): compute 1 densities/frame
+INFO: main.c(430): Will reestimate mixing weights.
+INFO: main.c(432): Will reestimate means.
+INFO: main.c(434): Will reestimate variances.
+INFO: main.c(442): Will reestimate transition matrices
+INFO: main.c(455): Reading main dictionary: /home/brian/Documents/other/etc/other.dic
+INFO: lexicon.c(220): 10 entries added from /home/brian/Documents/other/etc/other.dic
+INFO: main.c(465): Reading filler dictionary: /home/brian/Documents/other/etc/other.filler
+INFO: lexicon.c(220): 3 entries added from /home/brian/Documents/other/etc/other.filler
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: main.c(664): Reestimation: Baum-Welch
+INFO: cmn.c(133): CMN: 45.39  9.34 -10.27  4.99 -3.25 -1.48 -13.96 -5.22 -5.17 -6.22  9.30 -2.22 -2.26 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0                         1  100    0INFO: cvt2triphone.c(199): no multiphones defined, no conversion done
+    20 5  1 1 1.118867e-12 -1.353538e+02 -1.353538e+04
+INFO: cmn.c(133): CMN: 37.68 -1.38 -13.56 -9.83  1.00  4.99  5.32  1.44 -8.13 -8.23  6.25  1.68 -5.67 
+utt>     1                         2  204    0    20 7  1 1 7.927837e-13 -1.418238e+02 -2.893205e+04
+INFO: cmn.c(133): CMN: 22.55  4.22 -6.17  0.79  3.14  7.32 -12.01 -8.49 -13.94 -2.80 11.93  4.39 -4.87 
+utt>     2                         3  130    0    32 6  1 2 1.149319e-12 -1.443777e+02 -1.876910e+04
+INFO: cmn.c(133): CMN: 38.90  0.54  0.94  3.99  5.97  1.70  2.20 11.20 -7.07 -10.03 -1.90 -3.11 -4.76 
+utt>     3                         4  122    0    24 7  1 1 7.261597e-13 -1.429265e+02 -1.743703e+04
+INFO: cmn.c(133): CMN: 40.82  9.79 -9.80  3.74 -1.53  1.34 -9.82 -2.43 -6.95 -4.64 13.42  5.61 -2.60 
+utt>     4                         5  100    0    24 6  1 1 1.101001e-12 -1.391825e+02 -1.391825e+04
+INFO: cmn.c(133): CMN: 39.46  4.98 -0.37  6.12  3.25  3.26  3.17  3.97 -11.47 -11.44  6.98  6.81 -5.72 
+utt>     5                         6  115    0    32 7  1 1 1.658578e-13 -1.434326e+02 -1.649475e+04
+INFO: cmn.c(133): CMN: 37.00  6.07 15.88 -6.95  2.47  7.87  1.08  4.82 -5.15 -11.58  4.13  0.39 -8.43 
+utt>     6                         7  125    0    28 6  1 2 7.999384e-13 -1.412376e+02 -1.765470e+04
+INFO: cmn.c(133): CMN: 44.83 -0.81 -2.76  5.60  5.19  3.15 -4.88 -3.14 -9.50 -12.94  6.15 -1.12 -10.07 
+utt>     7                         8  126    0    28 7  1 2 1.264910e-12 -1.452893e+02 -1.830646e+04
+INFO: cmn.c(133): CMN: 43.83  1.47 -9.61  0.14 -2.00 -0.40 -4.40 -1.13 -5.69 -3.92 11.02 -1.47 -6.58 
+utt>     8                         9  101    0    16 5  1 1 8.597175e-13 -1.411397e+02 -1.425511e+04
+INFO: cmn.c(133): CMN: 42.57 -0.86  2.84 21.10  6.29  3.73 -6.38 -4.27 -2.88 -11.66  3.70  3.40 -10.90 
+utt>     9                        10  103    0    28 5  1 2 1.710075e-12 -1.378737e+02 -1.420099e+04
+overall> stats 1226 (-0) -1.415202e+02 -1.735038e+05
+
+INFO: s3mixw_io.c(232): Wrote /home/brian/Documents/other/bwaccumdir/other_buff_1/mixw_counts [63x1x1 array]
+INFO: s3tmat_io.c(175): Wrote /home/brian/Documents/other/bwaccumdir/other_buff_1/tmat_counts [21x3x4 array]
+INFO: s3gau_io.c(480): Wrote /home/brian/Documents/other/bwaccumdir/other_buff_1/gauden_counts with means with vars (2pass) [63x1x1 vector arrays]
+INFO: main.c(999): Counts saved to /home/brian/Documents/other/bwaccumdir/other_buff_1
+Thu Jan  7 12:21:02 2021
